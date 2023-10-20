@@ -6,4 +6,4 @@ We hope this has all the answers you need!
 
 ## Acknowledgements
 
-This site was based on the excellent [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/) and the AFSC Marine Mammal Laboratory (MML) handbook.
+This site was based on the excellent [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/) and the [AFSC Marine Mammal Laboratory (MML) handbook](https://nmml.github.io/mml-manual/).
