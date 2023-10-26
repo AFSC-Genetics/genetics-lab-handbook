@@ -2,21 +2,21 @@
 
 ![](img/onboarding.jpg)
 
-Welcome to MML, a division of the [Alaska Fisheries Science Center](https://www.fisheries.noaa.gov/about/marine-mammal-laboratory). Whether an FTE, Affiliate, Contractor, Intern/PostDoc or Volunteer, links to general operations can be found here.  
+Welcome to AFSC-Genetics, a division of the [Alaska Fisheries Science Center](https://www.fisheries.noaa.gov/contact/genetics-program-alaska-fisheries-science-center). Whether an FTE, Affiliate, Contractor, Intern/PostDoc or Volunteer, links to general operations can be found here.  
 
 ## AFSC Onboarding Checklist
 
 This [Onboarding Checklist](https://drive.google.com/file/d/1Gxg-tw76NeptYFkya7M6JSyxsy31mmAu/view) provides prompts to guide supervisors and staff through the first day, Week 1, and Week 2 for Federal and Non-Federal employees. 
 
-Our Divisional contact for onboarding new employees is Mary Foote. 
+Our Divisional contact for onboarding new employees is . 
 
 ## Facilities
 
-MML is located at the west end (both floors) of Building 4 on the [NOAA Western Regional Center campus](https://www.wrc.noaa.gov/). 
+AFSC-Genetics is located at Auke Bay Laboratories (ABL)/ Ted Stevens Marine Research Institute (TSMRI) in Juneau, AK. 
 
-### Key Cards
+### Key Cards - update CAC renewal period. one year? 
 
-NMFS requires the use of the [Common Access Card (CAC)](https://sites.google.com/noaa.gov/myafsc/technology/it-security/common-access-card-cac) to access buildings on the WRC campus and for login to Windows and Macintosh computers. Be prepared to show your CAC to the guards at the front gate and the front door of your work building each day. Cards must be [renewed every three years](https://sites.google.com/noaa.gov/myafsc/administrative/security/cac-renewal).  
+ABL requires the use of the [Common Access Card (CAC)](https://sites.google.com/noaa.gov/myafsc/technology/it-security/common-access-card-cac) to access buildings and laboratories and for login to Windows and Macintosh computers. Be prepared to show your CAC to the guards at the front gate and the front door of your work building each day. Cards must be [renewed every three years](https://sites.google.com/noaa.gov/myafsc/administrative/security/cac-renewal).  
 
 ### Office and Laboratory Space
 
@@ -24,9 +24,9 @@ AFSC policy states:
 
 _As stewards of the NOAA Fisheries science mission in Alaska, the AFSC has a mandate to ensure our use of all available resources including physical office, laboratory, and warehouse space, supports the mission. Divisions have differing needs for space and the Science Director's Office has delegated space allocation to the Divisions. If you have questions regarding how decisions regarding space are made in your Division, please pose these to your Divisional leadership._
 
-Office assignments are based on criteria that include time in service, highest held degree, performance, and whether an FTE or non-Federal employee. Check with MML Admin first to see if a they have a key for your office. If not, [request a key](https://www.wrc.noaa.gov/forms/KeyRequest.pdf) from the WRC Security office. Please keep in mind this form can only be signed by your Division Director.
+Office assignments are based on criteria that include time in service, highest held degree, performance, and whether an FTE or non-Federal employee. Check with ABL Admin or Division Director (Wes Larson) to see if a they have a key for your office. 
 
-MML's laboratory spaces are shared by all programs and staff. For information on lab space use see the Lab Safety chapter.
+AFSC-Genetics's laboratory spaces are shared by all programs and staff. For information on lab space use see the Lab Safety chapter.
 
 ### Conference Rooms and Hybrid Meetings
 
