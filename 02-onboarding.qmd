@@ -14,9 +14,11 @@ Our Divisional contact for onboarding new employees is:  .
 
 AFSC-Genetics is located at Auke Bay Laboratories (ABL)/Ted Stevens Marine Research Institute (TSMRI) in Juneau, AK. 
 
-### Keys, Key fobs, and CAC cards - update CAC renewal period. one year? 
+### Keys, Key fobs, and Common Access Cards
 
-ABL requires the use of the [Common Access Card (CAC)](https://sites.google.com/noaa.gov/myafsc/technology/it-security/common-access-card-cac) to access buildings and laboratories and for login to Windows and Macintosh computers. Be prepared to show your CAC to the guards at the front gate and the front door of your work building each day. Cards must be [renewed every three years](https://sites.google.com/noaa.gov/myafsc/administrative/security/cac-renewal).  
+ABL requires the use of the [Common Access Card (CAC)](https://sites.google.com/noaa.gov/myafsc/technology/it-security/common-access-card-cac) to access buildings and laboratories and for login to Windows and Macintosh computers. Cards require renewal based on your position. FTE CAC are [renewed every three years](https://sites.google.com/noaa.gov/myafsc/administrative/security/cac-renewal) while contractors 
+and postdoc renewal will be based on projected
+durations of contracts.  
 
 Rebekah Jones (rebekah.jones@noaa.gov) manages the keys and key fob acess to AFSC lab spaces. Physical keys are used for office spaces and the eDNA lab. All other lab spaces are accessed using a fob. 
 
@@ -50,7 +52,7 @@ Depending on your job duties, you may also be required to complete specialized t
 
 ## Time and Attendance
 
-INSERT NAME is AFSC-Genetics designated timekeeper. 
+Mark Piotrowski is AFSC-Genetics designated timekeeper. 
 
 One of the first things you will do as a new employee is set up your work schedule (i.e., Traditional, Compressed, or Maxiflex) and telework plan with your supervisor. More information about your options can be found [here](https://sites.google.com/noaa.gov/myafsc/administrative/time-and-attendance).
 
