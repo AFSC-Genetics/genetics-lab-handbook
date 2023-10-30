@@ -1,12 +1,11 @@
 # Welcome!
 
-Welcome to the MML Manual. This repo is intended for current staff of the Marine Mammal Laboratory at the Alaska Fisheries Science Center.
+Welcome to the AFSC ABL Genetics Program Manual. This repo is intended for current staff of the Auke Bay Laboratory Genetics Program at the Alaska Fisheries Science Center.
 
-This site serves as a central hub for information on how we do our work and our expectations for our team. It is also a space to document institutional knowledge and important information about procedures and available resources. If you have suggestions for additions or changes, please contact Nancy Friday (nancy.friday\@noaa.gov) or make a pull request.
+This site serves as a central hub for information on how we do our work and our expectations for our team. It is also a space to document institutional knowledge and important information about procedures and available resources. If you have suggestions for additions or changes, please contact Patrick Barry (Patrick.Barry\@noaa.gov) or make a pull request.
 
-This site was based on the excellent [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/) and developed as part of our group's participation in the [Openscapes Champions program](https://openscapes.org). 
+This site was based on the excellent [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/) and AFSC Marine Mammal Laboratory (MML) handbook.
 
-![](img/openscapes_hex_badge.png){width="25%"}
 
 ------------------------------------------------------------------------
 
