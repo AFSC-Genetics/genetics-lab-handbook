@@ -2,7 +2,7 @@
 
 ![](img/so_long.jpg)
 
-Everybody will at some point leave MML whether an FTE, Affiliate, Contractor, or Intern/PostDoc. Having a clear offboarding process ensures there are no loose ends when someone leaves the lab, that others who might carry on work being done can do so most easily, and provides an opportunity to clarify any remaining steps (e.g. publication, data archiving, future collaborations).  
+Everybody will at some point leave ABL genetics whether an FTE, Affiliate, Contractor, or Intern/PostDoc. Having a clear offboarding process ensures there are no loose ends when someone leaves the lab, that others who might carry on work being done can do so most easily, and provides an opportunity to clarify any remaining steps (e.g. publication, data archiving, future collaborations).  
 
 ## Offboarding Checklist
 
@@ -14,7 +14,7 @@ Affiliates, Contractors. and other non-Federal staff please use this [checklist 
 
 IT email guidance, in compliance with federal regulations, is to disable email accounts within one business day after clearance (departure/retirement). Once the email account is disabled, it no longer works and anyone who sends a message to it will get a failure notice saying the email account doesn’t exist. 
 
-Exceptions have been made to extend this deadline if necessary, work with your Program Lead or Lab Director and IT. Thirty days after a Google account is closed, all items (docs, emails, and events) are deleted forever. If an extension is needed beyond the 30 days, contact AFSC.servicedesk@noaa.gov. You may also request to transfer ownership of Google drive folders. 
+Exceptions have been made to extend this deadline if necessary, work with your Program Manager or Lab Director and IT. Thirty days after a Google account is closed, all items (docs, emails, and events) are deleted forever. If an extension is needed beyond the 30 days, contact AFSC.servicedesk@noaa.gov. You may also request to transfer ownership of Google drive folders. 
 
 If you wish to let people know you’re leaving, set up an auto-responder message 30 days before your departure date with information such as a new email address. You can also put information in your signature block.  
 
@@ -42,15 +42,11 @@ Access to your [webTA](https://www.commerce.gov/hr/employees/compensation/webta)
 
 Ensure any lab equipment (e.g. computer and peripherals) you have been using has been returned to the lab, office furniture is present and accounted for, and that tagged equipment has been logged in with the [MML Property Manager](https://sites.google.com/noaa.gov/myafsc/administrative/property-management) for non-IT property and AFSC Property Manager for IT property. Make sure any problems with equipment are documented and that the MML Property Manager and Program Lead have been made aware of them.  
 
-## MML Library
-
-Return all books and reprints checked out from the MML library. Work with the MML librarian to ensure all materials are accounted for.  
-
 ## Key Card and Office Keys
 
-All Common Access ID cards (CAC) are property of the U.S. Government and must be returned upon separation, resignation, firing, termination of contract or affiliation with MML. Key card access to WRC facilities will be terminated at that point. 
+All Common Access ID cards (CAC) are property of the U.S. Government and must be returned upon separation, resignation, firing, termination of contract or affiliation with ABL genetics. Key card access to TSMRI facilities will be terminated at that point. 
 
-Office keys should be returned to MML Admin staff. 
+Office keys should be returned to Rebekah Jones Admin staff. 
 
 ## Retirement Info
 
@@ -60,6 +56,6 @@ Please complete a [Request for Information form](https://drive.google.com/file/d
 
 Once you have a date selected and Retirement Specialist assigned, please make sure to submit your completed retirement package 6 to 8 weeks before your planned retirement date.
 
-In addition to the process above, please contact the MML Admin once you have decided on a date. They will initiate your SF52, CD-126, CD-527, and your CD-529.
+In addition to the process above, please contact Rebekah Jones Admin once you have decided on a date. They will initiate your SF52, CD-126, CD-527, and your CD-529.
 
 Other helpful links: [Are You Ready to Retire Factsheet](https://drive.google.com/file/d/19qhKweyxDZLqp2rLjzVtlpsRvVjc8KyI/view), [Your Plan for Retirement Decision Points](https://drive.google.com/file/d/1DH1c79OxQdlf-SfBpwSNAsLHbtTd9Ema/view), and the [Government Retirement & Benefits Platform](https://platform.grbinc.com/app/employee?license=1057).
