@@ -10,11 +10,11 @@ AFSC's Safety and Environmental Compliance Office (SECO) maintains the [Safety](
 
 Additional information and documents are available in the [AFSC Safety folder](https://drive.google.com/drive/u/0/folders/0Bxd9wnakNHDidG92djFoSDFJdTQ?resourcekey=0-CCGigU8eW59YQ9RN9_8Wpg) on Google Drive. 
 
-## MML Shared Labs
+## ABL Genetics Shared Labs
 
 ![](/img/shared-labs-schematic.JPG)
 
-The MML Shared Labs are located on the first floor of Building 4. They are monitored by the Shared Labs Manager and one or more points of contact. Staff serving as POCs are responsible for the following:
+The ABL Genetics Shared Labs are located on the first floor of Building 4. They are monitored by the Shared Labs Manager and one or more points of contact. Staff serving as POCs are responsible for the following:
 
 - Complete Lab Safety Training provided by the AFSC Safety Office every 5 years.
 - Conduct monthly safety inspections with their PL (Shared Labs Manager only).
@@ -22,7 +22,7 @@ The MML Shared Labs are located on the first floor of Building 4. They are monit
 - Respond or coordinate the response to directives about lab spaces (e.g., Washington State Tier II chemical inventory, AFSC chemical inventory) accurately and on time.  
 - Resolve or coordinate the resolution of minor issues (e.g., unlabeled items in common areas, messes) identified by the Shared Labs Manager within 3 days of identification.
 - Ensure that all chemical products and specimens in chemicals are labeled, stored, and disposed of according to NOAA and AFSC Safety Office guidelines.
-- Other lab-related duties as assigned by AFSC Safety Office or MML leadership.
+- Other lab-related duties as assigned by AFSC Safety Office or ABL Genetics leadership.
  
 Remember to include the Shared Labs Manager on all communications about safety issues and lab directives, as well as minor lab issues.
 
