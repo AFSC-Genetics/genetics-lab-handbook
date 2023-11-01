@@ -1,12 +1,10 @@
-# MML, AFSC, and NOAA Resources
+# ABL, AFSC, and NOAA Resources
 
 ## Public websites
 
-The [NOAA Western Regional Center](https://www.wrc.noaa.gov/) site has links to information about campus facility, security, and IT services, as well as a list of NOAA offices (e.g., Pacific Marine Evironmental Laboratory [PMEL]) present at WRC.
-
 The [Alaska Fisheries Science Center](https://www.fisheries.noaa.gov/region/alaska/) website has information about AFSC Divisions, surveys, species, etc., plus tons of links to other resources, such as AFSC Publications. 
 
-NOAA Fisheries' [Marine Mammal Laboratory](https://www.fisheries.noaa.gov/about/marine-mammal-laboratory/) site has great general information about the work that we do.
+[Auke Bay Laboratories](https://www.fisheries.noaa.gov/about/auke-bay-laboratories)
 
 The [NOAA Staff Directory](https://nsd.rdc.noaa.gov/) is a quick way to look up someone's email, phone number, and line office. Staff can log into the site to also view organization, position title, and employee type. 
 
