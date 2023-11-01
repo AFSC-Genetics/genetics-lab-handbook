@@ -6,7 +6,9 @@ Welcome to AFSC-Genetics, a division of the [Alaska Fisheries Science Center](ht
 
 ## AFSC Onboarding Checklist
 
-This [Onboarding Checklist](https://drive.google.com/file/d/1Gxg-tw76NeptYFkya7M6JSyxsy31mmAu/view) provides prompts to guide supervisors and staff through the first day, Week 1, and Week 2 for Federal and Non-Federal employees. 
+This [Onboarding Checklist](https://drive.google.com/file/d/1Gxg-tw76NeptYFkya7M6JSyxsy31mmAu/view) provides prompts to guide supervisors and staff through the first day, Week 1, and Week 2 for Federal and Non-Federal employees. This [ABL New Employee Checklist](https://drive.google.com/file/d/1VaIHTh5crAILlIz2Q1B0tq-93dzWt1LA/view?usp=sharing) includes similar information, but is more specific to ABL, and also includes a list of both required and recommended trainings for Federal employees.
+
+There will also be onboarding paperwork required through USA Staffing if you are a Federal employee. You should receive an email prior to your start date with this information. 
 
 Our Divisional contact for onboarding new employees is:  . 
 
@@ -19,6 +21,8 @@ AFSC-Genetics is located at Auke Bay Laboratories (ABL)/Ted Stevens Marine Resea
 ABL requires the use of the [Common Access Card (CAC)](https://sites.google.com/noaa.gov/myafsc/technology/it-security/common-access-card-cac) to access buildings and laboratories and for login to Windows and Macintosh computers. Cards require renewal based on your position. FTE CAC are [renewed every three years](https://sites.google.com/noaa.gov/myafsc/administrative/security/cac-renewal) while contractors 
 and postdoc renewal will be based on projected
 durations of contracts.  
+
+If you are based in Juneau, you will get your CAC in the Federal Building downtown in the Coast Guard administrative office, Room 711 at 709 West 9th St. You can schedule an appointment to get your CAC [here](https://idco.dmdc.osd.mil/idco/locator). They also have walk-in hours between 9-10 am M-F.
 
 Rebekah Jones (rebekah.jones@noaa.gov) manages the keys and key fob acess to AFSC lab spaces. Physical keys are used for office spaces and the eDNA lab. All other lab spaces are accessed using a fob. 
 
@@ -40,9 +44,9 @@ With meetings now occurring onsite and virtually, the AFSC has provided [Guidanc
 
 ### Parking and Transportation -- include electric car info??
 
-Parking is available on onsite in the designated areas. 
+Parking is available onsite in the designated areas. 
 
-NOAA also offers a [non-taxable transit-fare subsidy program](https://sites.google.com/noaa.gov/cao/about-ocao/logistics-operations-division/noaa-transit-subsidy-program) to encourage federal employees to use public mass transportation while commuting to and from work. Reimbursement to employees who use a non-motorized bicycle for a substantial portion of travel between your residence and the worksite is also availabe.    
+NOAA also offers a [non-taxable transit-fare subsidy program](https://sites.google.com/noaa.gov/cao/about-ocao/logistics-operations-division/noaa-transit-subsidy-program) to encourage federal employees to use public mass transportation while commuting to and from work. Unfortunately, public transportation in Juneau does not go out to Lena Point. Reimbursement to employees who use a non-motorized bicycle for a substantial portion of travel between your residence and the worksite is also availabe.    
 
 ## Required Training
 
@@ -56,11 +60,13 @@ Mark Piotrowski is AFSC-Genetics designated timekeeper.
 
 One of the first things you will do as a new employee is set up your work schedule (i.e., Traditional, Compressed, or Maxiflex) and telework plan with your supervisor. More information about your options can be found [here](https://sites.google.com/noaa.gov/myafsc/administrative/time-and-attendance).
 
-We use [webTA](https://docwebta.eas.commerce.gov/webta/) to submit biweekly timesheets and request leave. Guidance for timekeeping in webTA can be found [here](https://docs.google.com/document/d/1cLZ6i_k2qjqKGW-Aq0ctx8InpR-h-jSm/edit). 
+We use [GovTA](https://docgovta.commerce.gov/govta) to submit biweekly timesheets and request leave. Guidance for timekeeping in GovTA can be found in the GovTA training on the [CLC](https://doc.csod.com/client/doc/default.aspx). If you need further assistance with GovTA, you should contact your timekeeper first and then [CSC-GovTAPMO@doc.gov](mailto:CSC-GovTAPMO@doc.gov) if that does not resolve the issue.
 
 ## IT Resources
 
-*TBD*
+You can submit an AFSC IT Service Desk request ticket using this [Google form](https://sites.google.com/noaa.gov/myafsc/technology/afsc-it-service-desk). You will need to fill out this form to get IT assistance to initially set up your computer as a new employee, and to install or update software on your computer.
+
+*add info for SEDNA, other VMs, etc...*
 
 ## Performance Plans
 
