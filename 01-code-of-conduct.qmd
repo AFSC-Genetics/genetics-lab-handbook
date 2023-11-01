@@ -40,7 +40,7 @@ Harassment includes:
 
 ### Reporting - still need to edit
 
-If you are being harassed by a member of the Genetics lab, notice that someone else is being harassed, or have any other concerns, please contact the program Manager, Wes Larson, at [wes.larson@noaa.gov](mailto:wes.larson@noaa.gov). Lab members who believe they have been subjected to any kind of discrimination that conflicts with AFSC policies should seek assistance from a supervisor or an HR representative. 
+If you are being harassed by a member of the Genetics lab, notice that someone else is being harassed, or have any other concerns, please contact the program Manager, Wes Larson, at [wes.larson@noaa.gov](mailto:wes.larson@noaa.gov). Lab members who believe they have been subjected to any kind of discrimination that conflicts with AFSC policies should seek assistance from a supervisor or an HR representative. Reports of any form of misconduct or harassment can be submitted through any AFSC supervisor, the NOAA Workforce Management Office or the NOAA Civil Rights Office (800-452-6728 or 301-713-0500). Sexual harassment or assault can be reported through the NOAA Helpline (866-288-6558). 
 
 This code of conduct applies to Genetics lab spaces, but if you are being harassed by a member of the Genetics lab outside our spaces, we still want to know about it. We will take all good-faith reports of harassment seriously. This includes harassment outside our spaces and harassment that took place at any point in time. To protect our team members from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.  
 
@@ -54,6 +54,10 @@ If a participant engages in harassing behavior, appropriate action will be taken
 
 ### Additional resources - still need to edi
 
+[Codes of Conduct in Science](https://igacproject.org/codes-conduct-science)
+[NOAA Office of Inclusion and Civil Rights](https://www.noaa.gov/inclusion-and-civil-rights)
+[EEO Counseling and Complaints](https://www.noaa.gov/organization/inclusion-and-civil-rights/eeo-counseling-complaints)
+[Sexual Harassment](https://www.noaa.gov/organization/inclusion-and-civil-rights/sexual-harassment)
 
 ## License and attribution - still need to edit
 
