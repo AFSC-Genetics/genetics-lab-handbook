@@ -1,1 +1,1 @@
-Sitemap: https://nmml.github.io/mml-manual/sitemap.xml
+Sitemap: https://AFSC-Genetics.github.io/genetics-lab-handbook/sitemap.xml
