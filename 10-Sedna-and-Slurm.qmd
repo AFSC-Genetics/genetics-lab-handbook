@@ -1,0 +1,244 @@
+## Working on SEDNA and with Slurm
+
+### What is SEDNA and what is a cluster computer? 
+SEDNA is a computer cluster owned and operated by NOAA. It is a resource for folks working on bioinformatic work. A cluster computer is a set of computers that are interconnected like a network. They can be used as standalone computers to run simple jobs or can be interconnected to work together on computationally intensive tasks. 
+
+An individual computer is termed a 'node'. There are two different types of nodes: a **head node** where you land when you login to the cluster and **compute nodes** where you submit jobs. The **head node** is meant to view and edit directories or scripts and submit jobs. Any computing that needs to be done should ALWAYS be done on a **compute node** (more on this in User commands for Slurm). The compute nodes are managed by the scheduling software SLURM. 
+
+To set up an account on Sedna, you need to open a work request with the following [form](https://docs.google.com/forms/d/e/1FAIpQLSf2tDl9nJjihmHX9hM6ytMI3ToldqERVem1ge25-kp3JHw3tQ/viewform) and someone will contact you to set up your account. The current team managing Sedna is:  
+**Krista Nichols**, Genetics & Evolution Program Manager at the NWFSC krista.nichols@noaa.gov  
+**Giles Goetz**, Bioinformatics Specialist at the NWFSC giles.goetz@noaa.gov  
+**Marcus Nedelmann**, Linux System Administrator at the NWFSC marcus.nedelmann@noaa.gov  
+
+
+To access Sedna, you need to use the following command: 
+```
+ssh <username>@sedna.nwfsc2.noaa.gov
+```
+or if this gives you issues you many need to use the direct IP address: 
+```
+ssh <username>@161.55.52.157
+```
+
+Once you are on Sedna you land in your user home directory ```/home/<username>``` where you have a default of 4 TB of space to perform your work on. Its typical to offload your project files to long term storage when it is completed to create more space on your partition. However, if you run out of space and can not clear off files because the projects are ongoing and you still need intermediate files, you can open a work request to increase your space allotment temporarily. 
+
+<br>
+
+### What is Slurm?
+Slurm is a cluster manager and job scheduling system for Linux based clusters. Its overaching main features are allocating access to resources to users for a given amount of time (with either defaulted time and amount of compute nodes or as specified by the user), provides a framework for starting, executing and monitoring jobs, and manages a queue of pending work. 
+
+<br>
+
+### Working on Sedna with Slurm
+
+#### Interactive shell
+
+As stated above, when you login to the cluster you land on a **head node** and if you are doing anything other than moving through your directories and looking at files, it is best practice to move onto a **compute node** using an interactive shell. To do this, you should use the ```srun``` command which enables you to start an interactive session:  
+```
+srun -c 1 -t 12:00:00 --pty /bin/bash
+```
+What this command is doing is creating what is called a pseudo-terminal ```--pty``` that gives you one compute node with the ```-c 1``` flag for 12 hours with the ```-t 12:00:00``` flag running bash ```/bin/bash```. You should set the time for whatever you need. Its typical to request it for a full work day if you will be working on the cluster all day. After that time passes, the connection to the **compute node** will be terminated, but you can always just start another one with the same command if you need to continue work on it.
+
+#### Bash job 
+
+The above command is technically running a job on the cluster, but it is in an interactive format. It is good for moving files around, testing scripts that you are working on, zipping files, etc. Most scripts that you will run on the cluster will be non-interactive and run with a submission script using what is called a batch job. A batch job is run using the ```sbatch``` command on job files that end in ```.sh```. The job file is the program that you wish to run but takes on a specific format. Here is an example header of a shell script:
+
+```
+#!/bin/bash
+#SBATCH --job-name=pcod_peaks
+#SBATCH --time=24:00:00
+#SBATCH --mem=10GB
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=sara.schaal@noaa.gov # update your email
+#SBATCH --output=../job_outfiles/highFSTpeaks.%j.out # update your out file directory
+#SBATCH --error=../job_outfiles/highFSTpeaks.%j.err # update your error readout directory
+
+```
+The first line is what is called the "shebang" line and for a bash script is ```#!/bin/bash```. What this line is doing is first telling unix you are about to tell it how to interpret the script with ```#!``` and then how to interpret the contents of the script with the ```/bin/bash``` (the path to bash on Sedna). All the following lines are Slurm options and must begin with ```#SBATCH``` to tell Slurm that these are the options for the Slurm job.  
+```--job_name``` sets the name of your job
+```--time``` sets how long you want to use a compute node for this job in day-hours:mins:secs format; 1-12:00:00 would run for 1 and half days
+```--mem``` sets the amount of RAM you need allocated to your job which can be set typically in either MB or GB of RAM. 
+```--mail-type```  tells Slurm when you want to be emailed about your job
+and in this case we want an email when the job fails with FAIL, but can be NONE (default), BEGIN, END, FAIL, REQUEUE, ALL.
+```--mail-user``` sets the email you want Slurm to use 
+```--output``` sets the path and file name to put your stdout to go which will be any output that is given from the programs you are running in the job script
+```--error``` sets the path and file name of the stderr which gives any issues that arose in the run. It is good practice to add the ```%j``` to these file names because it gives the filename the job ID from that run of the job script. This makes documenting and tracking different runs of the same script easy.
+
+Other common options include ```--cpus-per-task=<ncpus>``` where ncpus is the number of cores you need to run your job and is used when your job can ```partition=<partitionName>``` where partitionName is the name of the partition you want your job run on. The latter option is used on Sedna when for example you want your job to run on the himem computers. These are only for jobs that require a large amount of RAM and thus the default on Slurm is to run on the standard partition with lower RAM capacity computers. There will be instances however where you exceed the RAM on those (see below section on Sedna hardware).
+
+Any additional lines in the job script will be lines running the specific program/command you need to run. Here is a simple example in a file called ```echoTest.sh```:
+
+```
+#!/bin/bash
+#SBATCH --job-name=echo_test
+#SBATCH --time=00:05:00
+#SBATCH --mem=10MB
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=sara.schaal@noaa.gov 
+#SBATCH --output=../job_outfiles/echo_test.%j.out 
+#SBATCH --error=../job_outfiles/echo_test.%j.err
+
+
+echo "Today is $(date)"
+```
+This script prints the date to your stdout file using the ```echo``` command. Once you set up your job options and have the program set in the script to run you would run the script from the folder that script is in using ```sbatch echoTest.sh```. When you run that line, Slurm should output the job ID that it gave your job: 
+```
+> Submitted batch job 696063
+``` 
+
+#### Other useful commands in Slurm 
+
+You can view the jobs that are running ```squeue``` on the command line. This will give you an output of all the current jobs running on Sedna:
+
+```
+ JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+693037      node snake_ma    sgurr  R 2-23:43:37      1 node03
+695733      node snakejob    sgurr  R 1-12:22:32      1 node29
+696063		node echo_test sschaal  R   00:00:01      1 node19
+
+```
+```JOBID``` are the IDs of the current jobs that are running
+```PARTITION``` is the parition that the jobs are running on which will be node for standard nodes and himem for the high memory nodes
+```NAME``` is the name you gave your job
+```USER``` is the user that is running the job
+```ST``` is the state the job is in which is R for running, PD for pending, CG for completing, CD for completed, F for failed. The latter three are only briefly printed out in the squeue output. Once they reach those points the job is removed from the squeue. 
+```TIME``` is how long the job has been running
+```NODES``` are the number of nodes the job is running on
+```NODELIST``` are the names of the nodes that the job is running on or if the job is not running yet it will give a reason that it isn't running
+
+If you just want to see your jobs that are running you can add the user flag when running this command ```squeue -u <username>``` and then you will only see a list of your jobs. 
+
+If your job is in a pending state, that may mean that there are not resources available at the moment to run your job. You can check the status of the cluster nodes by running ```sinfo``` which will give an output like the example output below:
+```
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+node*        up   infinite      2    mix node[03,29]
+node*        up   infinite     10  alloc node[07,20-21,30-36]
+node*        up   infinite     24   idle node[01-02,04-06,08-19,22-28]
+himem        up   infinite      4   idle himem[01-04]
+bionode      up   infinite      1 drain* bionode12
+bionode      up   infinite     18  down* bionode[01-11,13-19]
+```  
+
+```PARTITION``` which partition the line refers to which will be either node for standard nodes, himem for the high memory nodes, or bionode which are depreciated nodes that we no longer can access, but are still always listed on the sinfo  
+```AVAIL``` the active state of the partition either up, down or idle  
+```TIMELIMIT``` the maximum job execution walltime per partition in our case they have no limit  
+```NODES``` the total number of nodes per parition per state  
+```STATE``` the current state of the nodes which is either mix, alloc, idle, drain, or down. If in a mix state that means only part of the available RAM is being used by the node and can be allocated to another job. If in an alloc state, that means the whole node is allocated to a job(s). If in an idle state, these nodes are not active and available to use. If in a drain or down state, these nodes are under maintenance or depreciated.   
+```NODELIST``` the partition name and the node numbers in each given state  
+
+If you start a job, but realize something is not correct and you need to cancel the job you can cancel the job in a few different ways. The first is if it is a single job you can use the job ID ```scancel <jobID>``` or if you only have a single job running and you do not have the job ID handy you can also use ```scancel -u <username>```. If you have multiple jobs running and you want to cancel them all the previous command will also work. You can also cancel a range of job IDs ```scancel {<firstJobID>..<lastJobID>}```. 
+
+After you complete a job, you can check how the efficency of your runs cpu and memory usage using the ```seff <jobID>``` command. This command will give you some important information about your run especially if you are in the process of testing scripts for how much memory or time you need to allocate to the job. An example output is below: 
+
+```
+Job ID: 163074
+Cluster: sedna
+User/Group: sschaal/sschaal
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 1-09:11:35
+CPU Efficiency: 15.34% of 9-00:26:24 core-walltime
+Job Wall-clock time: 13:31:39
+Memory Utilized: 4.43 GB
+Memory Efficiency: 44.28% of 10.00 GB
+```
+
+```CPU Utilized``` sum of the computer time the job took to run. In this example, this job was run on 16 cores of a node, and so the CPU time is the sum of the time that was used on each core. 
+```CPU Efficiency``` shows how efficient the cpu use was and in this case it was low because some cores were not utilized for the entire job run. This can be optimized by reducing the number of cores needed for the run.
+```Job Wall-clock time``` actual time the job took to run
+```Memory Utilized``` maximum amount of RAM that was used during the run.
+```Memory Efficiency``` tells you what percentage of the memory that you allocated to the job was actually used. In this example, the job only used roughly half of the memory that was allocated to it and therefore, could be run using 5 or 6MB of RAM in future. It is always good to give it a little bit higher than what you need just in case. 
+
+
+<br>
+
+### Local text editors vs. unix text editors
+
+To write your scripts, you can either write via a local text editor and then upload the script to the cluster or you can write/edit a script directly on the command line. It is good practice to always update your scripts on both your local drive copy and on Sedna in order to keep track of changes you have made. Whether you write/edit locally or on sedna is your personal preference, but ensure you keep an updated copy on both locations. 
+
+To move a files, you should use the ```scp``` command which is generally formatted as follows ```scp <path from source> <path to destination>```
+
+To move a file from your local computer to sedna you can use the following script:  
+```
+scp -P 22 <username>@161.55.52.157:<SEDNA_PATH>/<filename> <LOCAL_PATH>
+```
+
+To move a file from sedna to your local computer you can use the following:  
+```
+scp -P 22 <LOCAL_PATH>\<filename> <username>@sedna.nwfsc2.noaa.gov:<SEDNA_PATH>
+```
+
+To move an entire directory you would add the ```-r``` flag:  
+```
+scp -P 22 -r <username>@161.55.52.157:<SEDNA_PATH>/<foldername> <LOCAL_PATH>
+```
+
+#### Sublime Text
+
+IN PROGRESS
+
+#### vim
+
+IN PROGRESS
+
+<br> 
+
+### Software on Sedna
+
+Sedna uses modules in order to provide individuals with access to different software that has been install. To check what software is currently available on Sedna type ```module avail```. For bioinformatics work, the majority of software will be listed under 
+
+The first time you want to access modules on the cluster you need to type the following: 
+```
+echo 'export MODULEPATH=${MODULEPATH}:/opt/bioinformatics/modulefiles' >> ~/.bashrc
+```
+Then logout of the cluster and log back in. This will set you up to use all the modules available to the cluster. If there is not a program listed that you need access to then open a work requesst with the Sedna staff at the following [link]{https://docs.google.com/forms/d/e/1FAIpQLSf2tDl9nJjihmHX9hM6ytMI3ToldqERVem1ge25-kp3JHw3tQ/viewform}.
+
+<br>
+
+### Sedna hardware
+
+There are three types of nodes on Sedna. The **Standard compute nodes** have two different memory features. Standard compute node01 to node28 have 96GB of RAM whereas node29 to node36 have 192 GB of RAM. If your job is in a pending status, but there are available nodes, it could be because you requested more than 96 GB of RAM and node29 to node36 are currently being used. The other available nodes are the four **himem** nodes himem01 to himem04 that have 1.5 TB of RAM and should only be used for jobs requiring more than 192 GB of RAM. 
+
+
+<br>
+
+### An example bioinformatics job
+
+Lets say that we want to index a genome for one of our bioinformatics projects. Here is an example batch job that would do this for the Atlantic cod gadMor3.0 genome:
+
+```
+#!/bin/bash
+#SBATCH --mem=1GB
+#SBATCH --time=1:00:00
+#SBATCH --job-name=bwa_index_GCF_902167405.1_gadMor3.0_genomic
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=sara.schaal@noaa.gov 
+#SBATCH --output=../job_outfiles/bwa-index_GCF_902167405.1_gadMor3.0_genomic.%j.out
+#SBATCH --error=../job_outfiles/bwa-index_GCF_902167405.1_gadMor3.0_genomic.%j.err
+
+module unload aligners/bwa/0.7.17
+module load aligners/bwa/0.7.17
+
+bwa index -p /home/sschaal/pcod/20220125/novaseq/bwa/GCF_902167405.1_gadMor3.0_genomic /home/sschaal/ref_genomes/GCF_902167405.1_gadMor3.0_genomic.fna
+
+```
+In this example, 1GB of RAM was allocated for 1 hour. The stdout and stderr went to our job_outfiles directory and was given the jobID in the file name. If the job failed and email would be sent to the given email. In order to run the index, the program *bwa* was needed and therefore, needed to be loaded via a module. As a refresher, you can get the name of the module and the path to the program in that module using the ```module avail``` command. The last line is *bwa index* script for indexing the reference genome. 
+
+<br>
+
+
+
+### Arrays
+
+IN PROGRESS
+
+<br>
+
+### Creating a project directory
+
+Before beginning a project, you'll want to set up a directory for your project. This can be in whatever flavor you want but an example would be setting a directory with the date you began the project and a few word description (e.g., 20231106_pcod_lcWGS). Alternatively if you work on a number of different projects for a given species and those analyses don't interact maybe you want a header directory called 'pcod' and then within that a subfolder with that dates run (e.g., 20231106_lcWGS). 
+
+IN PROGRESS
+
+<br>
