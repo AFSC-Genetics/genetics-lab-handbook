@@ -159,7 +159,8 @@ To write your scripts, you can either write via a local text editor and then upl
 
 To move a files, you should use the ```scp``` command which is generally formatted as follows ```scp <path from source> <path to destination>```
 
-To move a file from your local computer to sedna you can use the following script:  
+To move a file from your local computer to sedna you can use the following script:
+
 ```
 scp -P 22 <username>@161.55.52.157:<SEDNA_PATH>/<filename> <LOCAL_PATH>
 ```
@@ -169,7 +170,8 @@ To move a file from sedna to your local computer you can use the following:
 scp -P 22 <LOCAL_PATH>\<filename> <username>@sedna.nwfsc2.noaa.gov:<SEDNA_PATH>
 ```
 
-To move an entire directory you would add the ```-r``` flag:  
+To move an entire directory you would add the ```-r``` flag: 
+
 ```
 scp -P 22 -r <username>@161.55.52.157:<SEDNA_PATH>/<foldername> <LOCAL_PATH>
 ```
@@ -221,7 +223,6 @@ module unload aligners/bwa/0.7.17
 module load aligners/bwa/0.7.17
 
 bwa index -p /home/sschaal/pcod/20220125/novaseq/bwa/GCF_902167405.1_gadMor3.0_genomic /home/sschaal/ref_genomes/GCF_902167405.1_gadMor3.0_genomic.fna
-
 ```
 In this example, 1GB of RAM was allocated for 1 hour. The stdout and stderr went to our job_outfiles directory and was given the jobID in the file name. If the job failed and email would be sent to the given email. In order to run the index, the program *bwa* was needed and therefore, needed to be loaded via a module. As a refresher, you can get the name of the module and the path to the program in that module using the ```module avail``` command. The last line is *bwa index* script for indexing the reference genome. 
 
