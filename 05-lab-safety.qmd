@@ -14,7 +14,7 @@ Additional information and documents are available in the [AFSC Safety folder](h
 
 ![](/img/shared-labs-schematic.JPG)
 
-The ABL Genetics Shared Labs are located on the first floor of Building 4. They are monitored by the Shared Labs Manager and one or more points of contact. Staff serving as POCs are responsible for the following:
+The Auke Bay Laboratories (ABL) Genetics Labs are located on the second floor of the Ted Stevens Marine Research Institute lab wing in Rooms 211, 212, and 213. They are monitored for safety by the Shared Labs Manager and one or more points of contact. Staff serving as POCs are responsible for the following:
 
 - Complete Lab Safety Training provided by the AFSC Safety Office every 5 years.
 - Conduct monthly safety inspections with their PL (Shared Labs Manager only).
@@ -26,12 +26,10 @@ The ABL Genetics Shared Labs are located on the first floor of Building 4. They 
  
 Remember to include the Shared Labs Manager on all communications about safety issues and lab directives, as well as minor lab issues.
 
-| Contact | Phone Number |
+| Contact | 
 | --- | --- |
-| Katie Luxa (Shared Labs Manager) | 206-526-6316 |
-| Tom Gelatt (Supervisor) | 206-526-4040 |
-| Nancy Friday (Deputy Director) | 206-526-6266 |
-| AFSC Safety Office | 206-526-4165, 206-526-4361 |
+| Todd Miller (Shared Labs Manager) | todd.miller@noaa.gov |
+| Jon Buzitis (AFSC Safety and Environmental Compliance Officer | jon.buzitis@noaa.gov |
 
 <br />
 
