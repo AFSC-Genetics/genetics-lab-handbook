@@ -42,7 +42,7 @@ Staff working in the Shared Labs must demonstrate that they have completed the f
 - Lab orientation with Shared Labs Manager or Supervisor
 - Ability to find AFSC [MSDS/SDS online](https://app.riskandsafety.com/)
 - Read and understand relevant SOP(s)
-- Training on specialized equipment (e.g., steam kettle, tooth sectioning saw) and use of collections (e.g., food habits reference collection), if applicable
+- Training on specialized equipment 
 
 Staff wishing to use the Shared Labs intermittently for non-lab tasks (e.g., gear cleaning) must demonstrate that they have completed the following:
 
