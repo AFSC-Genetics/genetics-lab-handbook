@@ -6,7 +6,6 @@ AFSC's Safety and Environmental Compliance Office (SECO) maintains the [Safety](
 - The AFSC Chemical Hygiene Plan
 - Safety Data Sheets (SDS)
 - Safety training
-- Etc.
 
 Additional information and documents are available in the [AFSC Safety folder](https://drive.google.com/drive/u/0/folders/0Bxd9wnakNHDidG92djFoSDFJdTQ?resourcekey=0-CCGigU8eW59YQ9RN9_8Wpg) on Google Drive. 
 
@@ -26,48 +25,28 @@ The Auke Bay Laboratories (ABL) Genetics Labs are located on the second floor of
  
 Remember to include the Shared Labs Manager on all communications about safety issues and lab directives, as well as minor lab issues.
 
-| Contact | 
-| --- | --- |
-| Todd Miller (Shared Labs Manager) | todd.miller@noaa.gov |
-| Jon Buzitis (AFSC Safety and Environmental Compliance Officer | jon.buzitis@noaa.gov |
+Contacts:
+Todd Miller (ABL Shared Labs Manager)  todd.miller@noaa.gov
+Jon Buzitis (AFSC Safety and Environmental Compliance Officer)  jon.buzitis@noaa.gov
 
 <br />
 
 ### Requirements for Staff Working in Labs
 
-Staff working in the Shared Labs must demonstrate that they have completed the following:
-
-- AFSC [Lab Safety training](https://docs.google.com/forms/d/e/1FAIpQLSf9FENDWeC8QRoMHcI979rhOoYul8XKOx0-2FWyGegL8plnuQ/viewform/)
-- Read and understand the AFSC Chemical Hygiene Plan
-- Lab orientation with Shared Labs Manager or Supervisor
-- Ability to find AFSC [MSDS/SDS online](https://app.riskandsafety.com/)
-- Read and understand relevant SOP(s)
-- Training on specialized equipment 
+Staff working in the ABL Genetics Labs must demonstrate that they have completed the following:
+•	AFSC Lab Safety training (unable to open)
+•	AFSC Hazardous Communications training (unable to open)
+•	Read and understand the AFSC Chemical Hygiene Plan
+•	Lab orientation with Genetics Program technician
+•	Ability to find AFSC MSDS/SDS online 
+•	Read and understand relevant SOP(s)
+•	Training on specialized equipment
 
 Staff wishing to use the Shared Labs intermittently for non-lab tasks (e.g., gear cleaning) must demonstrate that they have completed the following:
 
 - AFSC [Hazardous Communications training](https://docs.google.com/forms/d/e/1FAIpQLSf9FENDWeC8QRoMHcI979rhOoYul8XKOx0-2FWyGegL8plnuQ/viewform/)
 - Lab orientation with Shared Labs Manager or Supervisor
 - Ability to find AFSC [MSDS/SDS online](https://app.riskandsafety.com/)
-
-<br />
-
-### General Lab Policies
-
-1. The Shared Labs are available to all staff and, at present, we do not require advance reservations to use them. However, to avoid potential scheduling conflicts, staff are **highly** encouraged to put their lab plans on the [MML Shared Labs Google calendar](https://calendar.google.com/calendar/u/0?cid=bm9hYS5nb3ZfZTVybmY2dGdjNXVraWQxZGhkcjNia2xwZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
-2. Ensure that all specimens, equipment, etc. are stored and labeled according to MML Shared Labs guidelines (see section below).
-3. *Clean up after yourself!* Please make sure program storage areas are organized and common areas are clean and clutter-free. Notify the Shared Labs Manager of any issues that require attention. 
-4. No nitrile gloves outside of the labs. If you need to leave your workstation to go to your office or talk to someone, dispose of your gloves and get a new pair when you return.
-5. Turn on hood fans before working in the labs, especially if you are doing anything that might have a strong smell (e.g., using steam kettles, processing scats). Turn the dial to the maximum time. Control dials are located in the Food Habits and Tooth Labs. 
-6. Dispose of lab waste in the proper receptacles (see section below).
-7. There is a 5-gallon carboy of 95% ethanol in the Dissection Lab that is available for all MML programs to share. If you notice the carboy is low/empty, ask the Shared Labs Manager to refill it.
-8. Working alone in the Shared Labs is not recommended. Notify your coworkers prior to working in the lab and ensure that at a minimum of 1 person - either nearby or available via call/text - is aware that the work is occurring. **Never enter or work in a walk-in freezer without a (in-person or virtual) buddy.**
-
-<br />
-
-### JHAs and SOPs
-
-Approved Job Hazard Analysis and Standard Operating Procedures documentation are required for all activities conducted in the MML Shared Labs. **Create a workflow for this...**
 
 <br />
 
@@ -91,13 +70,8 @@ Other items should be stored in your program’s designated area(s) of the labs 
 
 ### Chemical Inventories and Reporting
 
-MML must maintain a detailed inventory of all chemicals used and stored in the field, offices, and storage areas. The inventory is for chemical products only, not specimens stored in chemicals - although your program should keep an inventory of such items for the Tier II Report (see below). 
-
-The Shared Labs Manager is responsible for reviewing the MML chemical inventory and updating this information in the [AFSC Chemical Inventory](https://app.riskandsafety.com/). This must be done at least annually. **Create a workflow for this...**
-
-**Washington State Tier II Hazardous Chemical Reporting**
-
-Each January, AFSC must report totals of ethanol, formaldehyde, and sulfuric acid to the State. This report includes *chemical products as well as specimens stored in chemicals*. In Nov-Dec, the Shared Labs Manager will reach out to programs about inventory these resources, and compile a summary report for AFSC SECO. 
+ABL must maintain a detailed inventory of all chemicals used and stored in the Genetics Labs. The inventory is for chemical products only, not specimens stored in chemicals. 
+Individual users are responsible for reviewing the AFSC chemical inventory and updating this information in the AFSC Chemical Inventory. This must be done at least annually
 
 **Formalin Reporting**
 
@@ -107,18 +81,16 @@ We are also required to report all new purchases of formalin or formaldehyde to 
 
 ### Freezers
 
-MML has 2 large walk-in freezers, 1 mini fridge, 1 commercial standing freezer, and 4 ultra-low standing freezers. **Freezers are for biological specimens only - absolutely no food or beverages are allowed.** Emergency contacts are posted on the door of each unit. 
+-20°C and -80°C freezers are located in Rooms 207, 211, 212, and 213.
 
-| Freezer | Program | Location | Contents |
-| --- | --- | --- | --- |
-| -40° (#1) | AEP | Freezer Room | Genetic samples |
-| -80° (#2) | PEP & AEP | Freezer Room | PEP blood and genetics samples, AEP blood samples |
-| -40° (#3) | CCEP | Freezer Room | Blood and genetic samples |
-| -80° (#4) | AEP | Freezer Room | Blood samples |
-| -20° (standing) | CCEP | Tooth Lab | ??? |
-| -20° (walk-in) | Shared | Freezer Room | Diet and tissue samples, etc. |
-| -20° (walk-in) | Shared | Bldg 32 | Diet and tissue samples, etc. |
-| Mini-fridge | Shared | Pelagic Lab | Sample controls |
+Emergency contacts for freezer issues are posted on the door to each lab.
+
+Reminders:
+•	Freezers are for biological specimens only - absolutely no food or beverages are allowed. 
+•	Do not store samples in another program’s freezer without their express permission.
+•	Never put dry ice in the walk-in freezers - this is a suffocation hazard.
+•	Be sure that freezer doors are firmly closed when you’re done.
+•	Protect your hands when working with samples in/from the ultra-low freezers.
 
 Reminders:
 
@@ -134,48 +106,13 @@ Reminders:
 
 Please clean up after yourself in the labs. There are loads of cleaning supplies and tools available to you. 
 
-- Scrub or wipe down surfaces. 
-- Put away supplies, tools, and equipment.
-- Dispose of waste in the appropriate receptable (see below). 
-- Make sure anything you leave in a common space is well-labeled.
-- If working in a sink, pouring off excess liquids from a bucket, or emptying a steam kettle, use a drain catcher or metal sieve to catch solids. 
-- For bigger messes in the Dissection Lab, you can hose down surfaces and clean with Simple Green or another disinfectant. Waste water can go into the floor drains marked SEWER (you can use the small plastic broom and floor squeegee). Do not use the drains marked BLOOD! 
+•	Scrub or wipe down surfaces.
+•	Put away supplies, tools, and equipment.
+•	Make sure anything you leave in a common space is well-labeled.
+•	Dispose of hazardous and non-hazardous waste in appropriate receptacle.
+•	Dispose of scalpel blades in appropriate receptacle.
 
-| Waste type | Instructions |
-| --- | --- |
-| Biowaste | Solid organic matter (e.g., tissue, bone, etc.) should be collected in the Building 4 walk-in freezer. There are two large garbage cans on casters for this purpose. Absolutely no trash or plastic, and no tissues preserved in chemicals (e.g., ethanol, formalin). Do not fill bins more than 3/4 full. If needed, put excess waste in a 5-gallon bucket with a lid. *Note: There is no longer a waste receptacle in the Building 32 walk-in - if this is something you need, contact the Shared Labs Manager.* |
-| Chemicals | There are glass jars on the counter in the Pelagic Lab for collecting waste alcohol, DMSO, and formalin. If you need a new container, grab an empty jar from the "ref collection glassware" cabinet; be sure to label it appropriately. **Never dispose of chemicals in sinks or floor drains - even highly diluted ethanol!** |
-| Broken glass | There is a broken glass bucket located in the Dissection Lab. *Never put broken glass in the garbage or sharps containers.* |
-| Sharps | Used scalpels, needles, and other sharps go in the yellow/red plastic biohazard containers - there are several located throughout the labs. |
-| Batteries | Dead batteries go in the Universal Waste boxes in the MML Copy Room. |
-
-The Shared Labs Manager will monitor biowaste receptables and coordinate pick-up/disposal by Baker Commodities (rendering plant). Otherwise, if you see that a waste receptacle is full, fill out the [AFSC Waste Pickup Form](https://docs.google.com/forms/d/1VxVJjPymX4pyssAerCk21D45KMvLnEIUtt6jV1roep0/viewform?edit_requested=true).  Please note that there is a Center-wide monthly limit on formalin/formaldehyde disposal. If you need to dispose of large amounts of these chemicals, please coordinate with SECO before you begin. 
+When a hazardous waste receptacle is full, fill out the AFSC Waste Pickup Form. Please note that there is a Center-wide monthly limit on formalin/formaldehyde disposal. If you need to dispose of large amounts of these chemicals, please coordinate with SECO before you begin.
 
 <br />
 
-### Other Shared Labs Resources
-
-- Electric chain hoist
-- Steam kettles (2)
-- Dissecting microscopes
-- Ultrasonic cleaner (small)
-- Digital scales...
-- Tooth saw...
-- Tooth grinder...
-- Freezing microtome...
-
-At this time, there is not a chemical fume hood available in the Shared Labs. Options include the hood in the MML Tech Lab (typically used for charging UAS batteries) or the REFM Food Habits Lab (contact Geoff Lang and Rick Hibpshman).
-
-<br />
-
-## MML Acoustics Lab
-
-The acoustics lab provides space for storage, maintenance, and cleaning of passive acoustic moorings used primarily by CAEP (contact Jessica Crance).
-
-<br />
-
-## MML Tech Lab
-
-The tech lab provides storage space for electronic equipment that is temperature sensitive and should not be stored in the hangar. Each program has an assigned space within the lab. 
-
-<br />
